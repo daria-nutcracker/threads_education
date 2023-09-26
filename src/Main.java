@@ -14,7 +14,7 @@ public class Main {
        myThread2.start();
 
        System.out.println(currentThread().getName());
-        System.out.println(resource.i);
+        System.out.println(resource.getI());
 //        MyRunnable myRunnable = new MyRunnable();
 //        Thread thread1 = new Thread(myRunnable);
 //        thread1.start();
