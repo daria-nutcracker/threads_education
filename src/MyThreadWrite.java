@@ -1,6 +1,4 @@
 public class MyThreadWrite extends Thread{
-
-
     @Override
     public void run () {
         while (VolatileClass.i<5) {

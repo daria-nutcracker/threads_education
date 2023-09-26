@@ -18,12 +18,17 @@ public class Main {
        myThread1.start();
        myThread2.start();
        */
-
-        //lesson 5
+        /*lesson 5
         MyThreadRead myThreadRead = new MyThreadRead();
         MyThreadWrite myThreadWrite = new MyThreadWrite();
         myThreadRead.start();
         myThreadWrite.start();
+
+         */
+    for (int i = 0; i < 10000; i++)
+        new ThreadUseAtomic().start();
+    Thread.sleep(3000);
+
 
        System.out.println(currentThread().getName());
 //        System.out.println(resource.getI());
