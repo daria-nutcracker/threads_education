@@ -11,7 +11,7 @@ public class MyThread extends Thread{
 
         for (int i = 0; i < 5; i++) {
             resource.increaseI();
-            System.out.println("Current thread " + Thread.currentThread().getName() + "  i: " + resource.i);
+            System.out.println("Current thread " + Thread.currentThread().getName() + "  i: " + resource.getI());
         }
         //        someMethod();
 //        for (int i = 0; i < 5; i++)
