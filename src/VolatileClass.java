@@ -1,4 +1,4 @@
 public class VolatileClass {
-    private int i;
+    static volatile int i;
 
 }
